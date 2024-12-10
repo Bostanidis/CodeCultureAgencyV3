@@ -1,0 +1,32 @@
+.Footer-Main {
+    background-color: #F97316;
+    padding: 2rem 4rem;
+}
+
+.Footer-Main-Div2-Text {
+    font-family: 'Inter',sans-serif;
+    color: #fafafa;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.Footer-Main-Div2 {
+    border-radius: 0.6rem;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+    .Footer-Main {
+        background-color: #F97316;
+        padding: 1rem 2rem;
+    }
+
+    .Footer-Main-Div2-Text {
+        font-family: 'Inter',sans-serif;
+        color: #fafafa;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}

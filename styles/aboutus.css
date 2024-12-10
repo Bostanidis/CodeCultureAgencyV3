@@ -1,0 +1,86 @@
+main {
+    padding: 4rem 10rem;
+}
+
+.First-Section-About {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 2rem 5rem;
+    margin-bottom: 4rem;
+}
+
+.First-Section-About-Mini-Title {
+    color: #F97316;
+    display: block;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.First-Section-About-Us {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.848rem;
+    line-height: 4rem;
+    color: #FAFAFA;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.First-Section-About-Desc {
+    font-family: 'Inter', sans-serif;
+    color: #F97316;
+    line-height: 2rem;
+}
+
+.First-Section-About-Title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.919rem;
+    color: #FAFAFA;
+    font-weight: 600;
+    line-height: 6rem;
+}
+
+.First-Section-About-Text {
+    color: #A1A1AA;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.12rem;
+    line-height: 2rem;
+}
+
+@media (max-width: 767px) {
+    main {
+        padding: 1rem 2rem;
+    }
+
+    .First-Section-About {
+        padding: 0 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .First-Section-About-Us {
+        font-family: 'Inter', sans-serif;
+        font-size: 2.848rem;
+        line-height: 4rem;
+        color: #FAFAFA;
+        font-weight: 600;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1199px) {
+    main {
+        padding: 2rem 5rem;
+    }
+
+    .First-Section-About {
+        padding: 1rem 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .First-Section-About-Us {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}

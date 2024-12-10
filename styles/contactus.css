@@ -1,0 +1,134 @@
+.First-Section-Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.First-Section-Contact-Description {
+    font-family: 'Inter', sans-serif;
+    color: #F97316;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.First-Section-Contact-Title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.First-Section-Contact-Text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color: #A1A1AA;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.First-Section-Contact-Flexbox {
+    display: flex;
+    gap: 1.7rem;
+    justify-content: center;
+}
+
+.First-Section-Contact-Flexbox-Part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: #F97316;
+    box-sizing: border-box; /* Ensures padding is inside the square size */
+    border-radius: 0.8rem;
+    padding: 2.5rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 280px;
+}
+
+.First-Section-Contact-Icon {
+    width: 48px;
+    height: 48px;
+}
+
+.First-Section-Contact-Flexbox-Title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: #1C1C20;
+    text-align: center;
+}
+
+.First-Section-Contact-Flexbox-Description {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #1C1C20;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+
+@media (max-width: 767px) {
+    .First-Section-Contact-Flexbox {
+        gap: 1rem;
+        flex-direction: column;
+        padding: 2rem 3rem;
+    }
+
+    .First-Section-Contact-Title {
+        line-height: 4.5rem;
+    }
+
+    .First-Section-Contact-Flexbox-Part {
+        padding: 0;
+        flex-grow: 1;
+        max-width: 800px;
+        padding: 1rem 0;
+    }
+
+    .First-Section-Contact-Flexbox-Title {
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+
+    .First-Section-Contact {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1199px) {
+    .First-Section-Contact {
+        margin-top: 20rem;
+        margin-bottom: 20rem;
+    }
+
+    .First-Section-Contact-Flexbox-Part {
+        max-width: 280px;
+    }
+
+    .First-Section-Contact-Description {
+        font-size: 1.2rem;
+    }
+
+    .First-Section-Contact-Icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .First-Section-Contact-Flexbox-Title {
+        font-size: 1.5rem;
+    }
+
+    .First-Section-Contact-Flexbox-Description {
+        font-size: 1.2rem;
+    }
+
+    .First-Section-Contact-Text {
+        font-size: 1.3rem;
+    }
+
+}
