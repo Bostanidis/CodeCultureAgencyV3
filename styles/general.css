@@ -1,10 +1,32 @@
+:root {
+    --Colour-Body-Text: #A1A1AA;
+    --Colour-Button-Empty-Border: #2A2A2E;
+    --Colour-Button-Static: #F97316;
+    --Colour-Button-Hover: #D3550D;
+    --Colour-Button-Hover-Glow: 0 6px 12px rgba(211, 85, 13, 0.4);
+    --Colour-Header-Background: #1C1C20;
+    --Colour-Background: #09090B;
+    --Colour-Brand-White: #FAFAFA;
+}
+
+body.light-theme {
+    --Colour-Body-Text: #64748B;
+    --Colour-Button-Empty-Border: #BAE6FD;
+    --Colour-Button-Static: #0EA5E9;
+    --Colour-Button-Hover: #0369A1; /* Shared with Dark Theme */
+    --Colour-Button-Hover-Glow: 0 6px 12px 0 6px 12px rgba(14, 165, 233, 0.4); /* Shared with Dark Theme */
+    --Colour-Header-Background: #E0F2FE;
+    --Colour-Background: #F0F9FF;
+    --Colour-Brand-White: #0C4A6E;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #09090B;
+    background-color: var(--Colour-Background);
 }
 
 a {

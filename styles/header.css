@@ -10,14 +10,14 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1C1C20;
+    background-color: var(--Colour-Header-Background);
 }
 
 .Agency-Name {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     margin-left: 1.8rem;
 }
 
@@ -25,12 +25,12 @@
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     text-decoration: none;
 }
 
 .Header-Navigation-Button:hover {
-    color: #F97316; /* Button color for text */
+    color: var(--Colour-Button-Static); /* Button color for text */
     cursor: pointer;
 }
 
@@ -44,18 +44,18 @@
 .Header-Contact-Number-Button {
     padding: 0.625rem 1.25rem;
     border-radius: 2rem;
-    color: #FAFAFA;
+    color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 0.856rem;
     border: none;
-    background-color: #F97316;
+    background-color: var(--Colour-Button-Static);
     margin-right: 1.8rem;
     transition: ease .3s;
 }
 
 .Header-Contact-Number-Button:hover {
-    background-color: #EA580C;
+    background-color: var(--Colour-Button-Hover);
     transition: ease .3s;
     cursor: pointer;
 }
@@ -166,3 +166,72 @@
         display: flex;
     }
 }
+
+.Header-Dark-Theme-Div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1.8rem;
+}
+
+/* From Uiverse.io by satyamchaudharydev */ 
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    --width-of-switch: 3.5em;
+    --height-of-switch: 2em;
+    --size-of-icon: 1.4em;
+    --slider-offset: 0.3em;
+    display: block;
+    width: var(--width-of-switch);
+    height: var(--height-of-switch);
+}
+
+
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fafafa;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: var(--size-of-icon,1.4em);
+    width: var(--size-of-icon,1.4em);
+    border-radius: 20px;
+    left: var(--slider-offset,0.3em);
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+    ;
+   transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #303136;
+  }
+  
+  input:checked + .slider:before {
+    left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+    background: #303136;
+    /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+  }

@@ -8,7 +8,7 @@
 
 .First-Section-Contact-Description {
     font-family: 'Inter', sans-serif;
-    color: #F97316;
+    color: var(--Colour-Button-Static);
     text-align: center;
     line-height: 1rem;
 }
@@ -16,14 +16,14 @@
 .First-Section-Contact-Title {
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     text-align: center;
 }
 
 .First-Section-Contact-Text {
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     text-align: center;
     line-height: 2rem;
     margin-bottom: 2.5rem;
@@ -40,7 +40,7 @@
     flex-direction: column;
     justify-content: flex-start; /* Align items to the top vertically */
     align-items: center; /* Center items horizontally */
-    background-color: #F97316;
+    background-color: var(--Colour-Button-Static);
     box-sizing: border-box; /* Ensures padding is inside the square size */
     border-radius: 0.8rem;
     padding: 2.5rem;
@@ -57,14 +57,14 @@
 .First-Section-Contact-Flexbox-Title {
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
-    color: #1C1C20;
+    color: var(--Colour-Header-Background);
     text-align: center;
 }
 
 .First-Section-Contact-Flexbox-Description {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    color: #1C1C20;
+    color: var(--Colour-Header-Background);
     text-align: center;
     line-height: 1.5rem;
 }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 30px 40px;
 }
 
 .First-Section-Main-Text-Container {
@@ -12,7 +12,7 @@
 }
 
 .First-Section-Main-Slogan {
-    color: #fafafa;
+    color: var(--Colour-Brand-White);
     font-family: 'Inter', sans-serif;
     font-size: 3.9rem;
     letter-spacing: 1px;
@@ -28,7 +28,7 @@
 }
 
 .First-Section-Main-Text {
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     font-family: 'Inter', sans-serif;
     font-size: 1.12rem;
     text-align: center;
@@ -47,31 +47,31 @@
     padding-bottom: 0.667em;
     padding-left: 1.33em;
     border-radius: 2rem;
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     border: solid;
     border-width: 1px;
-    border-color: #2A2A2E;
+    border-color: var(--Colour-Button-Empty-Border);
     background: none;
     margin-right: 1.8rem;
     transition: ease .3s
 }
 
 .First-Section-Main-Button1:hover {
-    color: #F97316; /* Button color for text */
-    border-color: #F97316; /* Match border with text color */
+    color: var(--Colour-Button-Static); /* Button color for text */
+    border-color: var(--Colour-Button-Static); /* Match border with text color */
     transform: scale(1.03); /* Slightly enlarge */
-    box-shadow: 0 4px 8px rgba(249, 115, 22, 0.2); /* Subtle shadow */
+    box-shadow: 0 4px 8px var(--Colour-Button-Hover-Glow); /* Subtle shadow */
     transition: all 0.3s ease; /* Smooth both-way transition */
     cursor: pointer;
 }
 .Third-Section-Main-Button2:hover {
-    color: #F97316; /* Button color for text */
-    border-color: #F97316; /* Match border with text color */
+    color: var(--Colour-Button-Static); /* Button color for text */
+    border-color: var(--Colour-Button-Static); /* Match border with text color */
     transform: scale(1.03); /* Slightly enlarge */
-    box-shadow: 0 4px 8px rgba(249, 115, 22, 0.2); /* Subtle shadow */
+    box-shadow: 0 4px 8px var(--Colour-Button-Hover-Glow); /* Subtle shadow */
     transition: all 0.3s ease; /* Smooth both-way transition */
     cursor: pointer;
 }
@@ -83,12 +83,12 @@
     padding-bottom: calc(0.6em + 2px);
     padding-left: calc(1.333em + 2px);
     border-radius: 2rem;
-    color: #FAFAFA;
+    color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     border: none;
-    background-color: #F97316;
+    background-color: var(--Colour-Button-Static);
     margin-right: 1.8rem;
     transition: ease .3s;
 }
@@ -119,16 +119,16 @@
 }
 
 .First-Section-Main-Button2:hover {
-    background-color: #D3550D; /* Darker solid orange */
-    box-shadow: 0 6px 12px rgba(211, 85, 13, 0.4); /* Subtle outer glow */
+    background-color: var(--Colour-Button-Hover); /* Darker solid orange */
+    box-shadow: 0 6px 12px var(--Colour-Button-Hover-Glow); /* Subtle outer glow */
     transform: scale(1.05); /* Slight enlargement for emphasis */
     transition: all 0.3s ease; /* Smooth both-way transition */
     cursor: pointer;
 }
 
 .Third-Section-Main-Button1:hover {
-    background-color: #D3550D; /* Darker solid orange */
-    box-shadow: 0 6px 12px rgba(211, 85, 13, 0.4); /* Subtle outer glow */
+    background-color: var(--Colour-Button-Hover); /* Darker solid orange */
+    box-shadow: 0 6px 12px var(--Colour-Button-Hover-Glow); /* Subtle outer glow */
     transform: scale(1.05); /* Slight enlargement for emphasis */
     transition: all 0.3s ease; /* Smooth both-way transition */
     cursor: pointer;
@@ -144,7 +144,7 @@
     margin-top: 1rem;
     border: solid;
     border-color: #FAFAFA;
-    border-width: 0.5rem;
+    border-width: 0.4rem;
     border-radius: 1rem;
 }
 
@@ -162,7 +162,7 @@
 
 .Text-Of-Google-Maps {
     font-size: 1.5rem;
-    color: rgb(100,116,139);
+    color: var(--Colour-Body-Text);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
@@ -203,7 +203,7 @@
 
 .Second-Section-Main-Services {
     font-family: 'Inter', sans-serif;
-    color: #F97316;
+    color: var(--Colour-Button-Static);
     text-align: center;
     line-height: 1rem;
 }
@@ -211,14 +211,14 @@
 .Second-Section-Main-Title {
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     text-align: center;
 }
 
 .Second-Section-Main-Description {
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     text-align: center;
     line-height: 2rem;
     margin-bottom: 2.5rem;
@@ -258,7 +258,7 @@
     flex-direction: column;
     justify-content: flex-start; /* Align items to the top vertically */
     align-items: center; /* Center items horizontally */
-    background-color: #1C1C20;
+    background-color: var(--Colour-Header-Background);
     box-sizing: border-box; /* Ensures padding is inside the square size */
     border-radius: 0.8rem;
     padding: 2.5rem;
@@ -276,14 +276,14 @@
 .Second-Section-Main-Flexbox-Title {
     font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     text-align: center;
 }
 
 .Second-Section-Main-Flexbox-Description {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     text-align: center;
     line-height: 1.35rem;
 }
@@ -306,7 +306,7 @@
 }
 
 .Third-Section-Main {
-    background-color: #1C1C20;
+    background-color: var(--Colour-Header-Background);
     margin-top: 6.5rem;
     display: flex;
     align-items: self-start;
@@ -364,7 +364,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 2.848rem;
     line-height: 4rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     margin-top: 5rem;
     font-weight: 600;
 }
@@ -372,7 +372,7 @@
 .Third-Section-Main-Description {
     font-family: 'Inter', sans-serif;
     font-size: 1.15rem;
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     line-height: 1.5rem;
     margin-top: 2rem;
 }
@@ -383,12 +383,12 @@
     padding-bottom: calc(0.6em + 2px);
     padding-left: calc(1.333em + 2px);
     border-radius: 2rem;
-    color: #FAFAFA;
+    color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     border: none;
-    background-color: #F97316;
+    background-color: var(--Colour-Button-Static);
     margin-right: 1.8rem;
     margin-top: 3rem;
     transition: ease .3s;
@@ -400,13 +400,13 @@
     padding-bottom: 0.667em;
     padding-left: 1.33em;
     border-radius: 2rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     border: solid;
     border-width: 1px;
-    border-color: #2A2A2E;
+    border-color: var(--Colour-Button-Empty-Border);
     background: none;
     margin-right: 1.8rem;
     margin-top: 1rem;
@@ -465,7 +465,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 2.848rem;
     line-height: 4rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     margin-top: 5rem;
     font-weight: 600;
 } 
@@ -473,7 +473,7 @@
 .Fourth-Section-Main-Description {
     font-family: 'Inter', sans-serif;
     font-size: 1.15rem;
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     line-height: 1.5rem;
     margin-top: 2rem;
 }
@@ -539,7 +539,7 @@
 
 
 #Fifth-Section {
-    background-color: #1C1C20;
+    background-color: var(--Colour-Header-Background);
     margin-top: 9rem;
 }
 
@@ -552,7 +552,7 @@
     display: flex;  /* Using flex to center the items in the middle */
     align-items: center;
     justify-content: center;
-    background-color: #F97316;
+    background-color: var(--Colour-Button-Static);
     margin-bottom: 6rem;
 }
 
@@ -561,7 +561,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #09090B;
+    color: var(--Colour-Background);
     text-align: center;
     z-index: 10; /* Ensures the label stays on top of icons */
 }
@@ -710,7 +710,7 @@
 }
 
 .Sixth-Section-Main-Box {
-    background-color:black;
+    background-color: var(--Colour-Header-Background);
     border-radius: 0.6rem;
     display: flex;
     flex-direction: column;
@@ -722,7 +722,7 @@
 
 .Sixth-Section-Main-Services {
     font-family: 'Inter', sans-serif;
-    color: #F97316;
+    color: var(--Colour-Button-Static);
     text-align: center;
     line-height: 1rem;
 }
@@ -730,7 +730,7 @@
 .Sixth-Section-Main-Title {
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     text-align: center;
     line-height: 4rem;
     margin-top: 1rem;
@@ -739,7 +739,7 @@
 .Sixth-Section-Main-Description {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     text-align: center;
     line-height: 1.35rem;
     margin-top: 2rem;
@@ -768,7 +768,7 @@
     .Sixth-Section-Main-Description {
         font-family: 'Inter', sans-serif;
         font-size: 1rem;
-        color: #A1A1AA;
+        color: var(--Colour-Brand-White);
         text-align: left;
         line-height: 1.2rem;
         margin-top: 2rem;

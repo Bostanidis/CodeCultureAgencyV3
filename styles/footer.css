@@ -1,11 +1,11 @@
 .Footer-Main {
-    background-color: #F97316;
+    background-color: var(--Colour-Button-Static);
     padding: 2rem 4rem;
 }
 
 .Footer-Main-Div2-Text {
     font-family: 'Inter',sans-serif;
-    color: #fafafa;
+    color: var(--Colour-Brand-White);
     font-size: 1.1rem;
     text-align: center;
 }
@@ -19,13 +19,13 @@
 
 @media (max-width: 767px) {
     .Footer-Main {
-        background-color: #F97316;
+        background-color: var(--Colour-Button-Static);
         padding: 1rem 2rem;
     }
 
     .Footer-Main-Div2-Text {
         font-family: 'Inter',sans-serif;
-        color: #fafafa;
+        color: var(--Colour-Brand-White);
         font-size: 0.9rem;
         text-align: center;
     }

@@ -11,7 +11,7 @@ main {
 }
 
 .First-Section-About-Mini-Title {
-    color: #F97316;
+    color: var(--Colour-Button-Static);
     display: block;
     font-weight: 700;
     text-align: left;
@@ -22,27 +22,27 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 2.848rem;
     line-height: 4rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     margin-bottom: 2rem;
     font-weight: 600;
 }
 
 .First-Section-About-Desc {
     font-family: 'Inter', sans-serif;
-    color: #F97316;
+    color: var(--Colour-Button-Static);
     line-height: 2rem;
 }
 
 .First-Section-About-Title {
     font-family: 'Inter', sans-serif;
     font-size: 1.919rem;
-    color: #FAFAFA;
+    color: var(--Colour-Brand-White);
     font-weight: 600;
     line-height: 6rem;
 }
 
 .First-Section-About-Text {
-    color: #A1A1AA;
+    color: var(--Colour-Body-Text);
     font-family: 'Inter', sans-serif;
     font-size: 1.12rem;
     line-height: 2rem;
@@ -62,7 +62,7 @@ main {
         font-family: 'Inter', sans-serif;
         font-size: 2.848rem;
         line-height: 4rem;
-        color: #FAFAFA;
+        color: var(--Colour-Brand-White);
         font-weight: 600;
         margin-top: 2rem;
     }
